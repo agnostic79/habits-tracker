@@ -3,7 +3,7 @@ import { type AppDispatch, type RootState } from "../store/store";
 import { Box, Paper, Grid, Typography, Button, LinearProgress } from "@mui/material";
 import CheckCircleOutlineOutlinedIcon from "@mui/icons-material/CheckCircleOutlineOutlined";
 import HighlightOffOutlinedIcon from "@mui/icons-material/HighlightOffOutlined";
-import { removeHabit, toggleHabit, type Habit } from "../store/habitsSlice";
+import { removeHabit, toggleHabit } from "../store/habitsSlice";
 import { getStreak } from "../utils";
 
 const HabitsList = () => {
