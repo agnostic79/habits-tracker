@@ -36,13 +36,13 @@ const AddHabitForm = () => {
         />
 
         <FormControl fullWidth>
-          <InputLabel>Frequency</InputLabel>
+          <InputLabel sx={{ paddingInline: "0.5rem", background: "white" }}>Frequency</InputLabel>
           <Select value={frequency} onChange={(e) => setFrequency(e.target.value)}>
             <MenuItem value="daily">Daily</MenuItem>
             <MenuItem value="weekly">Weekly</MenuItem>
           </Select>
         </FormControl>
-        <Button type="submit" variant="contained" color="primary">
+        <Button type="submit" variant="contained" color="primary" sx={{ paddingBlock: "0.6rem" }}>
           Add Habit
         </Button>
       </Box>
